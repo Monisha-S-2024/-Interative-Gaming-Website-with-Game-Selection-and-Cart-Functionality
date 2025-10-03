@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Zone</title>
+    <style>
+        body { background-color: #1a1a1a; color: white; font-family: Arial, sans-serif; }
+        header { text-align: center; padding: 20px; background-color: #111; }
+        .navbar { text-align: center; background-color: #333; padding: 10px; }
+        .navbar a { color: white; margin: 0 15px; text-decoration: none; }
+        .hero { text-align: center; padding: 50px; background-image: url('gaming-hero.jpg'); background-size: cover; }
+        .game-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 40px; }
+        .game-item { background: #333; padding: 20px; border-radius: 8px; text-align: center; }
+        button { padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        footer { text-align: center; padding: 20px; background-color: #111; }
+    </style>
+</head>
+<body>
+
+<header><h1>Gaming Zone</h1></header>
+
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Games</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+</div>
+
+<section class="hero">
+    <h2>Get a Ultimate Gaming Experience</h2>
+    <p>Explore the best games right here!</p>
+</section>
+
+<section class="game-list">
+    <div class="game-item">
+        <img src="ludo.jpg" alt="LUDO" style="width:50%; height:200px; object-fit:cover;">
+        <h3>LUDO</h3>
+<h3> A Classic Family Game for All Ages</h3>
+        <button onclick="alert('Game 1 Added to Cart')">Add to Cart</button>
+    </div>
+    <div class="game-item">
+        <img src="cards.jpg" alt="CARDS" style="width:50%; height:200px; object-fit:cover;">
+        <h3>CARDS</h3>
+<h3>Endless Fun, Strategy, and Thrills </h3>
+        <button onclick="alert('Game 2 Added to Cart')">Add to Cart</button>
+    </div>
+    <div class="game-item">
+        <img src="carom1.jpg" alt="CAROM" style="width:50%; height:200px; object-fit:cover;">
+        <h3>CAROM</h3>
+<h3> A Classic Indoor Game of Skill and Precision</h3>
+
+        <button onclick="alert('Game 3 Added to Cart')">Add to Cart</button>
+    </div>
+    <div class="game-item">
+        <img src="snake.jpg" alt="SNAKES AND LADDERS" style="width:50%; height:200px; object-fit:cover;">
+        <h3>snake and ladders</h3>
+<h3>A Classic Game of Luck and Strategy</h3>
+        <button onclick="alert('Game 1 Added to Cart')">Add to Cart</button>
+    </div>
+
+ <div class="game-item">
+        <img src="word.jpg" alt="WORD SEARCH" style="width:50%; height:200px; object-fit:cover;">
+        <h3>word search</h3>
+<h3>Sharpen Your Mind with Every Puzzle</h3>
+        <button onclick="alert('Game 1 Added to Cart')">Add to Cart</button>
+    </div>
+
+ <div class="game-item">
+        <img src="images.jpg" alt="SUDOKU" style="width:50%; height:200px; object-fit:cover;">
+        <h3>Sudoku</h3>
+<h3>The Ultimate Puzzle Challenge</h3>
+        <button onclick="alert('Game 1 Added to Cart')">Add to Cart</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Gaming Zone | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
